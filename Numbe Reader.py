@@ -1,0 +1,6 @@
+f = open("Numbes.txt","r")
+t = open("BetterNumbes.txt","w+")
+awesoness = f.read()
+t.write(awesoness)
+print(awesoness)
+f.close()
